@@ -73,7 +73,6 @@ unsigned int faStr2(const char *str)
 }
 unsigned int faStr3(const char *str)
 {
-{
     int i = 0;
 	bool slov = false;
 	double buk = 0;
@@ -101,5 +100,4 @@ unsigned int faStr3(const char *str)
 		return round(buk / slova);
 	}
 	return 0;
-}
 }
